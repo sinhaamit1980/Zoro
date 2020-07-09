@@ -58,7 +58,8 @@ Feature: Register User
       | field_name       | error_message                |
       | first name       | First Name is required       |
       | last name        | Last Name is required        |
-      | telephone number | Email is required            |
+      | telephone number | Telephone Number is required |
+      | Email            | Email is required            |
       | password         | Password is required         |
       | confirm password | Confirm Password is required |
 
