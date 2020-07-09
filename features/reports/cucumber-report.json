@@ -1,0 +1,413 @@
+[
+  {
+    "elements": [
+      {
+        "id": "zoro-login;user-can-successfully-login-from-login-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User can successfully login from Login Page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Zoro Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 7205889030
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter a valid login detail",
+            "result": {
+              "status": "passed",
+              "duration": 3594220
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can see user is successfully logged in",
+            "result": {
+              "status": "passed",
+              "duration": 2202825613
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 314079979
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@zoro_login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "zoro-login;user-get-error-message-for-invalid-login",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "User get error message for invalid login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Zoro Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 5223557258
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter an invalid login detail",
+            "result": {
+              "status": "passed",
+              "duration": 1623073
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can see invalid login message \"Invalid email address or password\"",
+            "result": {
+              "status": "passed",
+              "duration": 12196047254
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 304567502
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@zoro_login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "zoro-login;user-see-error-message-for-entering-email-in-wrong-format",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "User see error message for entering email in wrong format",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Zoro Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 4428127849
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter email in wrong format",
+            "result": {
+              "status": "passed",
+              "duration": 853776
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can see invalid email message \"Please enter a valid email address\"",
+            "result": {
+              "status": "passed",
+              "duration": 1400139449
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 327137741
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@zoro_login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "zoro-login;user-see-error-message-when-email-is-not-entered",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "User see error message when email is not entered",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Zoro Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 4779925273
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter detail without email",
+            "result": {
+              "status": "passed",
+              "duration": 1692115
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can see email required message \"Email is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 1249575881
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 240674655
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@zoro_login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "zoro-login;user-see-error-message-when-password-is-not-entered",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "User see error message when password is not entered",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Zoro Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 4950303312
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter detail without password",
+            "result": {
+              "status": "passed",
+              "duration": 1001370
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can see password required message \"Password is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 2170942040
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 247070231
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@zoro_login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "zoro-login;user-is-taken-to-forgot-password-page-after-clicking-forgot-password-link",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "User is taken to forgot password page after clicking forgot password link",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Zoro Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 5108659436
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click forgot password link",
+            "result": {
+              "status": "passed",
+              "duration": 990922523
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am on forgot password page",
+            "result": {
+              "status": "passed",
+              "duration": 99907035
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/features/step_definitions/zoro-login-steps.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 340105962
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/amitsinha/apps/projects/zoor/Zoro/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@zoro_login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "zoro-login",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Zoro Login",
+    "tags": [
+      {
+        "name": "@zoro_login",
+        "line": 1
+      }
+    ],
+    "uri": "/Users/amitsinha/apps/projects/zoor/Zoro/features/zoro_login.feature"
+  }
+]

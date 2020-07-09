@@ -1,0 +1,20 @@
+{
+  "name": "Zoro",
+  "version": "1.0.0",
+  "description": "Automation Test in JavaScript for Zoro project",
+  "main": "index.js",
+  "url": "http://www.zoro.co.uk/login",
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -d -t ~@in-progress -s ./features/step_definitions -p ./features/page_objects -r ./features/reports"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "Amit Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-cucumber-js": "^1.7.0",
+    "selenium-webdriver": "3.6.0",
+    "chromedriver": "83.0.1"
+  }
+}

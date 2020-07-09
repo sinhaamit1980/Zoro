@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="zoro-login;user-can-successfully-login-from-login-page" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@zoro_login" value="true">
+            </property>
+            <property name="URI" value="/Users/amitsinha/apps/projects/zoor/Zoro/features/zoro_login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on Zoro Login Page" classname="zoro-login;user-can-successfully-login-from-login-page" time="7.20588903">
+        </testcase>
+        <testcase name="When I enter a valid login detail" classname="zoro-login;user-can-successfully-login-from-login-page" time="0.00359422">
+        </testcase>
+        <testcase name="Then I can see user is successfully logged in" classname="zoro-login;user-can-successfully-login-from-login-page" time="2.202825613">
+        </testcase>
+    </testsuite>
+    <testsuite name="zoro-login;user-get-error-message-for-invalid-login" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@zoro_login" value="true">
+            </property>
+            <property name="URI" value="/Users/amitsinha/apps/projects/zoor/Zoro/features/zoro_login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on Zoro Login Page" classname="zoro-login;user-get-error-message-for-invalid-login" time="5.223557258">
+        </testcase>
+        <testcase name="When I enter an invalid login detail" classname="zoro-login;user-get-error-message-for-invalid-login" time="0.001623073">
+        </testcase>
+        <testcase name="Then I can see invalid login message &quot;Invalid email address or password&quot;" classname="zoro-login;user-get-error-message-for-invalid-login" time="12.196047254">
+        </testcase>
+    </testsuite>
+    <testsuite name="zoro-login;user-see-error-message-for-entering-email-in-wrong-format" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@zoro_login" value="true">
+            </property>
+            <property name="URI" value="/Users/amitsinha/apps/projects/zoor/Zoro/features/zoro_login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on Zoro Login Page" classname="zoro-login;user-see-error-message-for-entering-email-in-wrong-format" time="4.428127849">
+        </testcase>
+        <testcase name="When I enter email in wrong format" classname="zoro-login;user-see-error-message-for-entering-email-in-wrong-format" time="0.000853776">
+        </testcase>
+        <testcase name="Then I can see invalid email message &quot;Please enter a valid email address&quot;" classname="zoro-login;user-see-error-message-for-entering-email-in-wrong-format" time="1.400139449">
+        </testcase>
+    </testsuite>
+    <testsuite name="zoro-login;user-see-error-message-when-email-is-not-entered" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@zoro_login" value="true">
+            </property>
+            <property name="URI" value="/Users/amitsinha/apps/projects/zoor/Zoro/features/zoro_login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on Zoro Login Page" classname="zoro-login;user-see-error-message-when-email-is-not-entered" time="4.779925273">
+        </testcase>
+        <testcase name="When I enter detail without email" classname="zoro-login;user-see-error-message-when-email-is-not-entered" time="0.001692115">
+        </testcase>
+        <testcase name="Then I can see email required message &quot;Email is required&quot;" classname="zoro-login;user-see-error-message-when-email-is-not-entered" time="1.249575881">
+        </testcase>
+    </testsuite>
+    <testsuite name="zoro-login;user-see-error-message-when-password-is-not-entered" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@zoro_login" value="true">
+            </property>
+            <property name="URI" value="/Users/amitsinha/apps/projects/zoor/Zoro/features/zoro_login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on Zoro Login Page" classname="zoro-login;user-see-error-message-when-password-is-not-entered" time="4.950303312">
+        </testcase>
+        <testcase name="When I enter detail without password" classname="zoro-login;user-see-error-message-when-password-is-not-entered" time="0.00100137">
+        </testcase>
+        <testcase name="Then I can see password required message &quot;Password is required&quot;" classname="zoro-login;user-see-error-message-when-password-is-not-entered" time="2.17094204">
+        </testcase>
+    </testsuite>
+    <testsuite name="zoro-login;user-is-taken-to-forgot-password-page-after-clicking-forgot-password-link" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@zoro_login" value="true">
+            </property>
+            <property name="URI" value="/Users/amitsinha/apps/projects/zoor/Zoro/features/zoro_login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on Zoro Login Page" classname="zoro-login;user-is-taken-to-forgot-password-page-after-clicking-forgot-password-link" time="5.108659436">
+        </testcase>
+        <testcase name="When I click forgot password link" classname="zoro-login;user-is-taken-to-forgot-password-page-after-clicking-forgot-password-link" time="0.990922523">
+        </testcase>
+        <testcase name="Then I am on forgot password page" classname="zoro-login;user-is-taken-to-forgot-password-page-after-clicking-forgot-password-link" time="0.099907035">
+        </testcase>
+    </testsuite>
+</testsuites>
