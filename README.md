@@ -4,13 +4,13 @@ Installing packages and Running tests
 ================================
   
 
-##Clone the project
+## Clone the project
 
 ```bash
 git clone https://github.com/sinhaamit1980/Zoro.git
 ```
 
-##Install NPM (if not installed)
+## Install NPM (if not installed)
 
 Download and install Node from https://nodejs.org/en/download. 
 This will also install the Node Package Manager (NPM).
